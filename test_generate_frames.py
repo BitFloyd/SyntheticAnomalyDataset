@@ -69,7 +69,7 @@ while(anom_count<test_config.anom_count):
     sublist_shapes_rtol=[]
 
     # create queue of shapes in -x and +x direction to be moved across screen
-    for j in range(0,test_config.n_shapes_in_q):
+    for j in range(0,test_config.n_shapes_in_video):
 
         # Left to Right queue
         if(j==0):

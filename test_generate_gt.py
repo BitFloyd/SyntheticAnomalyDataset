@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 import os
 import pickle
 import sys
-import config, test_config
+import config
 
 def make_videos_of_frames(i):
 
